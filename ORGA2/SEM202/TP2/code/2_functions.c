@@ -4,7 +4,7 @@
 #include <string.h>//Para la comparacion de strings
 #include "2_structs.h" //Archivo donde se encuentran todas las structs.
 
-extern void hola( char *img01Buffer, char *img02Buffer, char *maskbuffer, char *outPutFile, int columns, int row, int padding );
+extern void enmascarar_asm( char *img01Buffer, char *img02Buffer, char *maskbuffer, char *outPutFile, int columns, int row, int padding );
 
 // char bmpFolderName[] = "bmps";
 char mascara[] = "mascara";
